@@ -7,7 +7,7 @@ __pycache__/
 venv/
 env/
 .venv/
-.venv*/        # 防止 VS Code/PyCharm 特殊虛擬環境命名方式
+.venv*/       
 env*/
 ENV/
 ENV*/
