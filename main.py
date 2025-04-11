@@ -179,11 +179,12 @@ plt.tight_layout()
 plt.savefig("dataviz/inventory_price_status_distribution.png")
 plt.close()
 
-# === 6. Run Group Member A’s Cohort-Based Retention Module ===
+# === 6. Cohort-Based Retention Module ===
+print("\n=== [6] Cohort-Based Retention Module ===")
 run_cohort_value_retention_analysis()
 
 # === 7. Summary and Observations ===
-print("\n=== [6] Summary and Observations ===")
+print("\n=== [7] Summary and Observations ===")
 print("- The dataset included various missing and extreme values, which were cleaned through filtering and quantile-based clipping.")
 print("- Key engineered features include car_age (from year and saledate), market_model category, and value_retention.")
 print("- The MMR prediction model (XGBoost) was trained with encoded categorical and standardized numeric inputs, and tested on 20% of the data.")
