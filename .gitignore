@@ -1,0 +1,52 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*$py.class
+
+# === Virtual Environments ===
+venv/
+env/
+.venv/
+.venv*/        # 防止 VS Code/PyCharm 特殊虛擬環境命名方式
+env*/
+ENV/
+ENV*/
+
+# === PyCharm Settings ===
+.idea/
+
+# === Windows OS Files ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === Logs ===
+*.log
+
+# === Cache and Artifacts ===
+*.pkl
+*.cache
+*.db
+
+# === IPython / Jupyter Checkpoints ===
+.ipynb_checkpoints/
+
+# === Images (optional - comment this out if you want to keep .png files) ===
+# *.png
+# *.jpg
+# *.jpeg
+
+# === Large raw data files (optional) ===
+# data/*.csv
+# data/*.xlsx
+
+# === Compiled Cython or C extensions ===
+*.so
+*.dll
+*.dylib
+*.pyd
+
+# === Project packaging artifacts ===
+*.egg-info/
+dist/
+build/
