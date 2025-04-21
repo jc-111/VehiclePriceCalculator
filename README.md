@@ -89,7 +89,7 @@ The package expects vehicle data with some or all of these columns:
 ## Price Status Criteria
 
 The system classifies vehicles based on value retention:
-- **Value Retention**: (selling price - MMR) / MMR
+- **Value Retention**: selling price / MMR
 - **Recommended Price Range**: [value retention * 0.9, value retention * 1.1]
 - **Underpriced**: Value retention < 0.9
 - **Fair Price**: Value retention between 0.9 and 1.1
